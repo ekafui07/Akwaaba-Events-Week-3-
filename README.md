@@ -1,5 +1,4 @@
-# Akwaaba — Event Management Platform (Frontend)
-
+# Akwaaba — UI Redesign
 A full-featured event management platform built for organizers to manage events, tickets, attendees, analytics and notifications all from a single platform.
 
 ---
