@@ -43,23 +43,42 @@ Below are screenshots demonstrating the live implementation of the Akwaaba platf
 
 | Dashboard | Analytics |
 |---|---|
-| ![Dashboard](./public/screenshots/dashboard.png) | ![Analytics](./public/screenshots/analytics.png) |
+| ![Dashboard](./images/dashboard.png) | ![Analytics](./images/analytics.png) |
 
 | Login | Notifications |
 |---|---|
-| ![Login](./public/screenshots/login.png) | ![Notifications](./public/screenshots/notifications.png) |
+| ![Login](./images/login.png) | ![Notifications](./images/notifications.png) |
 
-| Browse Events | Register Digital Tickets |
+| Register Tickets | QR Codes |
 |---|---|
-| ![Browse Events](./public/screenshots/browse.png) | ![Register Tickets](./public/screenshots/register_tickets.png) |
+| ![Register Tickets](./images/register-tickets.png) | ![QR Codes](./images/qr-code.png) |
 
-| QR Codes Management | Administrative Reports |
+| Reports | Profile & Settings |
 |---|---|
-| ![QR Codes](./public/screenshots/qr_codes.png) | ![Reports](./public/screenshots/reports.png) |
+| ![Reports](./images/reports.png) | ![Profile & Settings](./images/profile.png) |
 
-| Profile & Settings | Public Landing |
-|---|---|
-| ![Settings](./public/screenshots/settings.png) | ![Landing](./public/screenshots/landing.png) |
+---
+
+## Image Assets
+
+The repo now includes a dedicated `images/` folder for shared visual assets such as README banners, social preview images, and other marketing graphics.
+
+Recommended usage:
+
+- Keep reusable images in `images/`
+- Keep UI screenshots in `public/screenshots/`
+- Reference images with relative paths so the README renders correctly in GitHub and VS Code
+
+Current files in `images/`:
+
+- `dashboard.png`
+- `analytics.png`
+- `register-tickets.png`
+- `qr-code.png`
+- `reports.png`
+- `notifications.png`
+- `profile.png`
+- `login.png`
 
 ---
 
@@ -67,6 +86,16 @@ Below are screenshots demonstrating the live implementation of the Akwaaba platf
 
 ```
 Frontend/
+├── images/                         # Shared README and social preview assets
+│   ├── dashboard.png
+│   ├── analytics.png
+│   ├── register-tickets.png
+│   ├── qr-code.png
+│   ├── reports.png
+│   ├── notifications.png
+│   ├── profile.png
+│   ├── login.png
+│   └── .gitkeep
 ├── public/
 │   ├── hero_event_hall.png         # Landing page hero image
 │   └── screenshots/                # Application UI screenshots
@@ -139,14 +168,7 @@ All pages currently use static mock data. When backend endpoints are ready, the 
 
 ---
 
-## Branch
-
-This work lives on the `edwin-ui/finished` branch.
-Pull Request: [View on GitHub](https://github.com/Wild-Technological-Services/eventcloud/pull/new/edwin-ui/finished)
-
----
-
 ## Author
 
-**Edwin Kafui** — Frontend Developer, Week 3
+**Edwin Kafui** — Frontend Developer,
 Wild Technological Services · Akwaaba Project Team
