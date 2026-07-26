@@ -73,20 +73,6 @@ Frontend/
 
 ---
 
-## Design System
-
-| Token | Value |
-|---|---|
-| Primary Font | Plus Jakarta Sans |
-| Accent Color | `#8B5CF6` (Violet) |
-| Background | `#0d1321` |
-| Card Background | `rgba(255, 255, 255, 0.04)` |
-| Success | `#10B981` |
-| Danger | `#EF4444` |
-| Warning | `#F59E0B` |
-
----
-
 ## Getting Started
 
 ### Prerequisites
