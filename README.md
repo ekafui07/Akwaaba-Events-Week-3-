@@ -37,12 +37,49 @@ The team needed a polished frontend that stakeholders and backend developers cou
 
 ---
 
+## Screenshots
+
+Below are screenshots demonstrating the live implementation of the Akwaaba platform user interface across key routes:
+
+| Dashboard | Analytics |
+|---|---|
+| ![Dashboard](./public/screenshots/dashboard.png) | ![Analytics](./public/screenshots/analytics.png) |
+
+| Login | Notifications |
+|---|---|
+| ![Login](./public/screenshots/login.png) | ![Notifications](./public/screenshots/notifications.png) |
+
+| Browse Events | Register Digital Tickets |
+|---|---|
+| ![Browse Events](./public/screenshots/browse.png) | ![Register Tickets](./public/screenshots/register_tickets.png) |
+
+| QR Codes Management | Administrative Reports |
+|---|---|
+| ![QR Codes](./public/screenshots/qr_codes.png) | ![Reports](./public/screenshots/reports.png) |
+
+| Profile & Settings | Public Landing |
+|---|---|
+| ![Settings](./public/screenshots/settings.png) | ![Landing](./public/screenshots/landing.png) |
+
+---
+
 ## Architecture
 
 ```
 Frontend/
 ├── public/
-│   └── hero_event_hall.png         # Landing page hero image
+│   ├── hero_event_hall.png         # Landing page hero image
+│   └── screenshots/                # Application UI screenshots
+│       ├── landing.png
+│       ├── login.png
+│       ├── dashboard.png
+│       ├── analytics.png
+│       ├── browse.png
+│       ├── reports.png
+│       ├── register_tickets.png
+│       ├── qr_codes.png
+│       ├── notifications.png
+│       └── settings.png
 ├── src/
 │   ├── Akwaaba/
 │   │   ├── Icons.jsx               # Shared SVG icon components
@@ -69,28 +106,6 @@ Frontend/
 │   ├── main.jsx                    # App entry point
 │   └── styles.css                  # Global design tokens and shared classes
 └── index.html                      # Google Fonts (Plus Jakarta Sans) loaded here
-```
-
----
-
-## Getting Started
-
-### Prerequisites
-- Node.js 18+
-- npm
-
-### Install and Run
-
-```bash
-cd Frontend
-npm install
-npm run dev
-```
-
-### Production Build
-
-```bash
-npm run build
 ```
 
 ---
