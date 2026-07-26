@@ -144,7 +144,4 @@ All pages currently use static mock data. When backend endpoints are ready, the 
 
 ---
 
-## Author
 
-**Edwin Kafui** — Frontend Developer,
-Wild Technological Services · Akwaaba Project Team
