@@ -1,20 +1,18 @@
 # Akwaaba — Event Management Platform (Frontend)
 
-A full-featured event management web application built for organizers to manage events, tickets, attendees, analytics, and notifications — all from a single, elegant dashboard.
+A full-featured event management platform built for organizers to manage events, tickets, attendees, analytics and notifications all from a single platform.
 
 ---
 
 ## Description
 
-Akwaaba is the frontend interface for a collaborative event management platform. It was built as part of a team project, where my role was **Frontend Developer (Week 3)**. The goal was to take provided UI mockups and translate them into fully working, interactive React pages — all styled to match a consistent dark-themed, violet-accented design system.
-
-The application is built using **React + Vite**, with all styling done in vanilla CSS and inline React styles. All pages are currently wired to mock data and are ready for API integration when the backend endpoints are confirmed.
+The role i played in the team was a **Frontend Developer**. The goal was to take provided UI mockups and translate them into fully working, interactive React pages. The application is built using **React + Vite**, with all styling done in vanilla CSS . A
 
 ---
 
 ## Why
 
-The team needed a polished, navigable frontend that stakeholders and backend developers could reference and interact with during development. Rather than handing over static mockups, a fully working coded version:
+The team needed a polished frontend that stakeholders and backend developers could interact with during development. Rather than handing over static mockups, a fully working coded version:
 
 - Gives the backend team a **clear picture of the data shapes** each page needs
 - Allows **early user testing** before APIs are connected
@@ -103,15 +101,6 @@ npm install
 npm run dev
 ```
 
-App runs at: `http://localhost:5173`
-
-### Demo Login Credentials
-
-```
-Email:    admin@eventhub.app
-Password: eventhub
-```
-
 ### Production Build
 
 ```bash
@@ -145,7 +134,6 @@ All pages currently use static mock data. When backend endpoints are ready, the 
 | Vite | Build tool and dev server |
 | React Router v6 | Client-side routing |
 | Redux Toolkit | Global state management |
-| Supabase | Authentication (via `auth.jsx`) |
 | Vanilla CSS + Inline Styles | Styling |
 
 ---
