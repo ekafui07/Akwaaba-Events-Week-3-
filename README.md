@@ -59,29 +59,6 @@ Below are screenshots demonstrating the live implementation of the Akwaaba platf
 
 ---
 
-## Image Assets
-
-The repo now includes a dedicated `images/` folder for shared visual assets such as README banners, social preview images, and other marketing graphics.
-
-Recommended usage:
-
-- Keep reusable images in `images/`
-- Keep UI screenshots in `public/screenshots/`
-- Reference images with relative paths so the README renders correctly in GitHub and VS Code
-
-Current files in `images/`:
-
-- `dashboard.png`
-- `analytics.png`
-- `register-tickets.png`
-- `qr-code.png`
-- `reports.png`
-- `notifications.png`
-- `profile.png`
-- `login.png`
-
----
-
 ## Architecture
 
 ```
