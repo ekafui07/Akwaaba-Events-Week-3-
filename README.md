@@ -6,7 +6,7 @@ A full-featured event management platform built for organizers to manage events,
 
 ## Description
 
-The role i played in the team was a **Frontend Developer**. The goal was to take provided UI mockups and translate them into fully working, interactive React pages. 
+My role on the team was a **Frontend Developer**. The goal was to take provided UI mockups and translate them into fully working, interactive React pages. 
 
 ---
 
