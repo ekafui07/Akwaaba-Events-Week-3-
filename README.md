@@ -6,8 +6,7 @@ A full-featured event management platform built for organizers to manage events,
 
 ## Description
 
-The role i played in the team was a **Frontend Developer**. The goal was to take provided UI mockups and translate them into fully working, interactive React pages. The application is built using **React + Vite**, with all styling done in vanilla CSS . A
-
+The role i played in the team was a **Frontend Developer**. The goal was to take provided UI mockups and translate them into fully working, interactive React pages. 
 ---
 
 ## Why
